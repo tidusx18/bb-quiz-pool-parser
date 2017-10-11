@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1= title
+  form.pure-form(action='/' method = 'POST')
+   textarea.pure-input-1-2(name='quizpool')
+   p Paste your formatted quiz pool in the textbox above.
+   input.pure-button.pure-button-primary(type='submit' value='Get BB Quiz Pool')

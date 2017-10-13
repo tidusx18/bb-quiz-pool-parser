@@ -2,6 +2,12 @@ function QuizPool(quizPool) {
   this.quizPool = quizPool;
   this.currentQuestion = {};
   this.questions = [];
+  this.questionTypes = {
+    multipleChoice: 'MC',
+    // multipleAnswer: 'MA',
+    trueFalse: 'TF',
+    essay: 'ESS'
+  }
   this.matchPatterns = {
     type: /^Type: (\S{1,3})/i,
     prompt: /^\d{1,3}(?:\)|\.) /i,
@@ -36,15 +42,16 @@ QuizPool.prototype.evaluatePool = function() {
     
     for(let item of splitQuestion) {
       if(this.__search(item, 'type')) {
-        this.currentQuestion.type = item;
+        let type = this.__getMatch(this.matchPatterns.type);
+        this.currentQuestion.type = type;
       }      
       else if(this.__search(item, 'prompt')) {
-        this.currentQuestion.prompt = item;
+        this.currentQuestion.prompt = item.replace(this.matchPatterns.prompt, '');
       }
       else if(this.__search(item, 'answer')) {
         if(this.__search(item, 'correctAnswer')) {
           let correctAnswer = this.__getMatch(item, 'correctAnswer');
-          this.__addCorrectAnswer(correctAnswer[1]);
+          this.__addCorrectAnswer(correctAnswer[1]) // [1] is answer letter
         }
         let answer = this.__getMatch(item, 'answer');
         this.__addAnswer([answer[1], answer[2]]); // [1] is answer letter/number, [2] is text.
@@ -66,6 +73,67 @@ QuizPool.prototype.getQuestion = function(index) {
     return this.currentQuestion;
   }
 };
+
+QuizPool.prototype.questionToCSV(question) {
+  // code
+}
+
+QuizPool.prototype.__getQuestionType() {
+  // Gets question type of current question
+  if(this.__isMultipleChoice) {
+    return 
+  }
+  
+  if(this.__isMultipleAnswer) {
+    return 
+  }
+  
+  if(this.__isTrueFalse) {
+    return 
+  }
+}
+
+QuizPool.prototype.__setQuestionType(type) {
+  this.currentQuestion.type = type;
+}
+
+QuizPool.prototype.__isMultipleChoice() {
+  let question = this.currentQuestion;
+  let noTypeSpecified = question.type === '';
+  let moreThanTwoAnswers = question.answers.length > 2;
+  let oneCorrectAnswer = question.correctAnswers.length < 2;
+
+  if(noTypeSpecified && moreThanTwoAnswers && oneCorrectAnswer) {
+    return true;
+  }
+  return false;
+}
+
+QuizPool.prototype.__isMultipleAnswer() {
+  // code here
+  let question = this.currentQuestion;
+  let noTypeSpecified = question.type === '';
+  let moreThanTwoAnswers = question.answers.length > 2;
+  let multipleCorrectAnswers = question.correctAnswers.length > 1;
+
+  if(noTypeSpecified && moreThanTwoAnswers && multipleCorrectAnswers) {
+    return true;
+  }
+  return false;
+}
+
+QuizPool.prototype.__isTrueFalse() {
+  // code here
+  let question = this.currentQuestion;
+  let noTypeSpecified = question.type === '';
+  let twoAnswers = question.answers.length == 2;
+  let oneCorrectAnswer = question.correctAnswers.length < 2;
+
+  if(noTypeSpecified && twoAnswers && oneCorrectAnswer) {
+    return true;
+  }
+  return false;
+}
 
 QuizPool.prototype.__addQuestion = function(question) {
   this.questions.push(question);

@@ -1,0 +1,575 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pro",
+				"processCourses"
+			],
+			[
+				"cours",
+				"courseId"
+			],
+			[
+				"new",
+				"newString"
+			],
+			[
+				"weekl",
+				"weeklyDates"
+			],
+			[
+				"ques",
+				"questionNumber"
+			],
+			[
+				"quiz",
+				"quizPool"
+			],
+			[
+				"qu",
+				"questionNumber"
+			],
+			[
+				"in",
+				"innerText"
+			],
+			[
+				"get",
+				"getAllUrlParams"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 1296,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 269.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"inde",
+				"Auto indent"
+			],
+			[
+				"xml",
+				"Indent XML"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"incre",
+				"Increment Selection"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pl",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"keybin",
+				"Preferences: Key Bindings"
+			],
+			[
+				"line",
+				"Sort Lines"
+			],
+			[
+				"keyb",
+				"Preferences: Key Bindings"
+			],
+			[
+				"pla",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"block",
+				"Toggle Block Comment"
+			]
+		],
+		"width": 423.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/victorid/Documents/Projects/bb-quiz-pool-parser"
+	],
+	"file_history":
+	[
+		"/Z/Private/victorid/Documents/Full Time Faculty.txt",
+		"/C/Users/victorid/Google Drive/Programming Projects/AutoHotKey/DownloadsFolderShortcut.ahk",
+		"/C/Users/victorid/Google Drive/Programming Projects/Javascript/GeneralWorkSpace.sublime-project",
+		"/C/Users/victorid/Google Drive/Programming Projects/Javascript/Misc/CourseCopyFromSandbox.js",
+		"/C/Users/victorid/Documents/Projects/local-Library-tutorial/package.json",
+		"/C/Users/victorid/Google Drive/Programming Projects/Javascript/Misc/POST-IRMA-ReplaceDatesBB.js",
+		"/C/Users/victorid/Downloads/1178 - SPC3425 - Small Group Communication - Section RVC - Fall 2017 - Edit Group Set Enrollments.png",
+		"/C/Users/victorid/Google Drive/Programming Projects/Javascript/Misc/SelectGroupMembers.js",
+		"/C/Users/victorid/Google Drive/Programming Projects/Javascript/Misc/RemoveDroppedStudentsFromGroups.js",
+		"/Z/Private/victorid/Documents/Meetings/Meeting Notes.txt",
+		"/C/Users/victorid/Google Drive/Programming Projects/Javascript/Misc/POST-IRMA-ReplaceDatesCreatorPro.js",
+		"/C/Users/victorid/Google Drive/Programming Projects/Javascript/Misc/OpenFirstItemEditView.js",
+		"/C/Users/victorid/Downloads/Pool_ExportFile_NC-NEC1000DanielVictoriano_03292016-10000_Practice Quiz/res00001.dat",
+		"/C/Users/victorid/Downloads/Pool_ExportFile_NC-NEC1000DanielVictoriano_03292016-10000_Practice Quiz/imsmanifest.xml",
+		"/C/Users/victorid/Downloads/Pool_ExportFile_NC-NEC1000DanielVictoriano_03292016-10000_Practice Quiz/.bb-package-sig",
+		"/C/Users/victorid/Downloads/Pool_ExportFile_NC-NEC1000DanielVictoriano_03292016-10000_Practice Quiz/.bb-package-info",
+		"/C/Users/victorid/Downloads/Pool_ExportFile_NC-NEC1000DanielVictoriano_03292016-10000_Practice Quiz/res00006.dat",
+		"/C/Users/victorid/Google Drive/Programming Projects/Javascript/Misc/POST-IRMA-ReplaceDates.js",
+		"/C/Users/victorid/Downloads/GistBox Data - Thu Sep 21 2017",
+		"/C/Users/victorid/Google Drive/Programming Projects/Javascript/Misc/ListAssignmentDatesFromSyllabus,js",
+		"/C/Users/victorid/Downloads/ExportFile_NC-NEC1000DanielVictoriano_03292016-10000_20170914035730/res00010.dat",
+		"/C/Users/victorid/Downloads/ExportFile_NC-NEC1000DanielVictoriano_03292016-10000_20170914035730/res00107.dat",
+		"/C/Users/victorid/Downloads/ExportFile_NC-NEC1000DanielVictoriano_03292016-10000_20170914035730/imsmanifest.xml",
+		"/C/Users/victorid/Google Drive/FIU Online/PEP Notes.txt",
+		"/C/Users/victorid/Downloads/ExportFile_NC-NEC1000DanielVictoriano_03292016-10000_20170914035730/res00004.dat",
+		"/C/Users/victorid/Downloads/ExportFile_NC-NEC1000DanielVictoriano_03292016-10000_20170914035730/res00001.dat",
+		"/C/Users/victorid/Downloads/ExportFile_NC-NEC1000DanielVictoriano_03292016-10000_20170914035730/res00007.dat",
+		"/C/Users/victorid/Downloads/ExportFile_NC-NEC1000DanielVictoriano_03292016-10000_20170914035730/res00003.dat",
+		"/C/Users/victorid/Downloads/ExportFile_NC-NEC1000DanielVictoriano_03292016-10000_20170914035730/res00002.dat",
+		"/C/Users/victorid/Downloads/ExportFile_NC-NEC1000DanielVictoriano_03292016-10000_20170914035730.zip",
+		"/C/Users/victorid/Downloads/ArchiveFile_NC-NEC1000DanielVictoriano_03292016-10000_20170914035845.zip",
+		"/C/Users/victorid/Google Drive/Programming Projects/Javascript/Misc/QuizPoolParserIdeas.js",
+		"/C/Users/victorid/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/victorid/Google Drive/Programming Projects/AutoHotKey/AutomateBrowserPrinting.ahk",
+		"/C/Users/victorid/Google Drive/Programming Projects/Javascript/Misc/OpenEditAllDiscussionBoards.js",
+		"/C/Users/victorid/Downloads/test.html",
+		"/C/Users/victorid/Downloads/24095649-instructor-engagement-copy.htm",
+		"/C/Users/victorid/AppData/Roaming/Microsoft/Templates/Untitled.oft",
+		"/Z/Private/victorid/Documents/Blackboard/Course/Export and Archive/imsmanifest.xml",
+		"/C/Users/victorid/Downloads/cordata/cordata0.txt",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/algeria/algeria.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/angola/angola.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/benin/benin.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/botswana/botswana.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/burkina_faso/burkina_faso.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/burundi/burundi.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/cameroon/cameroon.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/cape_verde/cape_verde.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/central_african_republic/central_african_republic.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/chad/chad.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/comoros/comoros.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/cote_dIvoire/cote_dIvoire.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/democratic_republic_congo/democratic_republic_congo.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/djibouti/djibouti.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/egypt/egypt.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/equatorial_guinea/equatorial_guinea.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/eritrea/eritrea.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/ethiopia/ethiopia.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/gabon/gabon.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/gambia/gambia.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/ghana/ghana.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/guinea/guinea.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/guinea_bissau/guinea_bissau.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/kenya/kenya.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/lesotho/lesotho.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/liberia/liberia.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/libya/libya.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/madagascar/madagascar.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/malawi/malawi.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/mali/mali.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/mauritania/mauritania.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/mauritius/mauritius.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/morocco/morocco.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/mozambique/mozambique.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/namibia/namibia.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/niger/niger.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/nigeria/nigeria.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/republic_congo/republic_congo.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/rwanda/rwanda.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/sao_tome_principe/sao_tome_principe.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/senegal/senegal.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/seychelles/seychelles.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/sierra_leone/sierra_leone.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/somalia/somalia.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/south_africa/south_africa.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/sudan/sudan.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/swaziland/swaziland.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/tanzania/tanzania.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/togo/togo.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/tunisia/tunisia.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/uganda/uganda.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/zambia/zambia.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/africa/zimbabwe/zimbabwe.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/asia/afghanistan/afghanistan.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/asia/armenia/armenia.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/asia/azerbaijan/azerbaijan.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/asia/bahrain/bahrain.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/asia/bangladesh/bangladesh.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/asia/bhutan/bhutan.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/asia/brunei/brunei.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/asia/cambodia/cambodia.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/asia/china/china.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/asia/cyprus/cyprus.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/asia/east_timor/east_timor.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/asia/georgia/georgia.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/asia/india/india.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/asia/indonesia/indonesia.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/asia/iran/iran.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/asia/iraq/iraq.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/asia/israel/israel.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/asia/japan/japan.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/asia/jordan/jordan.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/asia/kazakhstan/kazakhstan.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/asia/kuwait/kuwait.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/asia/kyrgyzstan/kyrgyzstan.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/asia/laos/laos.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/asia/lebanon/lebanon.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/asia/malaysia/malaysia.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/asia/maldives/maldives.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/asia/mongolia/mongolia.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/asia/myanmar/myanmar.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/asia/nepal/nepal.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/asia/north_korea/north_korea.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/asia/oman/oman.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/asia/pakistan/pakistan.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/asia/philippines/philippines.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/asia/qatar/qatar.html",
+		"/C/Users/victorid/Downloads/WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168/continents/asia/russia/russia.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 105.0,
+		"where_history":
+		[
+			"C:\\Users\\victorid\\Google Drive\\Programming Projects\\Javascript\\Misc",
+			"C:\\Users\\victorid\\Downloads\\WorldExplorer-dev-6a17d2589c7e412d3c647f2d5f54e6d2c1bed168\\continents",
+			"C:\\Users\\victorid\\Documents\\World Explorer Project\\continents",
+			"C:\\Users\\victorid\\Documents\\World Explorer Project\\continents\\africa",
+			"africa"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"newWindow",
+			"getElementById",
+			"1178",
+			"document",
+			"newWindow",
+			"1178",
+			"copyURL",
+			"copyInit",
+			"group",
+			"newWindow",
+			"courseId",
+			"document",
+			"Weekly",
+			"Module",
+			"Exam",
+			"Weekly",
+			"Week",
+			"week",
+			"Post",
+			"Essay",
+			"Exam",
+			"Assignment",
+			"Week",
+			"quiz",
+			"discussion",
+			"Post",
+			"Exam",
+			"Assignment",
+			"Discussion",
+			"Quiz",
+			"Grammar Quiz 2 available from Wednesday, 9/20 at 5:00AM (EST) through Tuesday, 9/26 at 11:55PM (EST)\n",
+			"Assignment",
+			"Response",
+			"Discussion",
+			"Credit",
+			"Letter",
+			"available",
+			"Quiz",
+			"Week",
+			"Essay",
+			"Exam",
+			"Assignment",
+			"Post",
+			"evaluate",
+			"gsub",
+			"invoke",
+			"strip",
+			"33EE1204E52311D688857A6D7D811638",
+			"setDate",
+			"updateString",
+			"updateDateText",
+			"replaceDates",
+			"available",
+			"Module",
+			"Quiz",
+			"Module",
+			"Week",
+			"Click",
+			"Week",
+			"<'",
+			">Module",
+			"Module",
+			"Letter",
+			"Module",
+			"Quiz",
+			"Module",
+			"Week",
+			"111",
+			"Week ",
+			"Week",
+			"LATE",
+			"Click",
+			"Module ",
+			"getInstances",
+			"replaceDates",
+			"';",
+			"'Module",
+			"<';",
+			">Module",
+			"date.innerHTML.toLowerCase()",
+			"date",
+			"newString",
+			"steph",
+			"lus",
+			"^\\d(?:\\0|\\. )",
+			"_558102_1",
+			"discussion",
+			"? ",
+			"Tuesday",
+			"Wednesday",
+			"LATE",
+			"Turnitin",
+			"LATE",
+			"quizLines",
+			"question",
+			"quizLines",
+			"asd",
+			"multipleChoiceAnswer",
+			"questionPrompt",
+			"questionNumber",
+			"lastMatch",
+			"multipleChoiceAnswer",
+			"quizPool",
+			"question",
+			"expr",
+			"Activity",
+			"Click",
+			"Complete",
+			"click",
+			"default",
+			"row",
+			"groupRows",
+			"•",
+			"}",
+			">M",
+			"@",
+			"EMAIL",
+			"https://fiudit-my.sharepoint.com/personal/jaiyoung_fiu_edu/_layouts/15/WopiFrame.aspx?sourcedoc=%7B9A8547BD-0F0E-4DFA-A12D-D94F9D2F3B53%7D&file=1178%20Department%20of%20Communication%20Fall%202017.xlsx&action=default",
+			"<span class=\"orange1\">[\\s\\S]+?<\\/span>",
+			"<span class=\"orange1\">",
+			"<span class=\"orange1\">[\\s\\S]+?<\\/span>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			"\n",
+			""
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1296,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 470.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "bb-quiz-pool-parser.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 283.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -7,6 +7,7 @@ exports.parse_post = function(req, res, next) {
 		// Parse quiz
 		let pool = new bbQuizParser(req.body['quizpool']);
 		pool.evaluatePool();
+		console.log(pool.getQuestions());
 
 		// Download result
 

@@ -1,0 +1,16 @@
+1. A multiple choice question.
+a. asd
+*b. qwe
+c. zxc
+
+Type: E
+2. An essay question.
+
+3. A multiple answer question.
+*a. asd
+*b. qwe
+c. zxc
+
+4. A true/false question.
+a. True
+*b. False

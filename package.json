@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "devstart": "nodemon ./bin/www"
+    "devstart": "nodemon ./bin/www",
+    "debugstart": "nodemon --inspect ./bin/www"
   },
   "dependencies": {
     "body-parser": "~1.17.1",

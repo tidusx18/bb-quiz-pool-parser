@@ -4,7 +4,7 @@ function QuizPool(quizPool) {
   this.questions = [];
   this.questionTypes = {
     multipleChoice: 'MC',
-    // multipleAnswer: 'MA',
+    multipleAnswer: 'MA',
     trueFalse: 'TF',
     essay: 'ESS'
   }
@@ -42,8 +42,8 @@ QuizPool.prototype.evaluatePool = function() {
     
     for(let item of splitQuestion) {
       if(this.__search(item, 'type')) {
-        let type = this.__getMatch(this.matchPatterns.type);
-        this.currentQuestion.type = type;
+        let type = this.__getMatch(item, 'type');
+        this.currentQuestion.type = type[1];
       }      
       else if(this.__search(item, 'prompt')) {
         this.currentQuestion.prompt = item.replace(this.matchPatterns.prompt, '');
@@ -57,6 +57,7 @@ QuizPool.prototype.evaluatePool = function() {
         this.__addAnswer([answer[1], answer[2]]); // [1] is answer letter/number, [2] is text.
       }
     }
+    this.__setQuestionType(this.__getQuestionType());
     this.__addQuestion(this.currentQuestion);
     console.log('Question Added: ', this.currentQuestion);
   }
@@ -74,30 +75,54 @@ QuizPool.prototype.getQuestion = function(index) {
   }
 };
 
-QuizPool.prototype.questionToCSV(question) {
-  // code
-}
+QuizPool.prototype.questionsToCSV = function() {
+  let questions = this.getQuestions();
+  let result = '';
+  for(let question of questions) {
+    let type = question.type;
+    let prompt = question.prompt.replace(/\r\n+/igm, ' ');
+    let answers = question.answers;
+    let correctAnswers = question.correctAnswers;
+    let line = `${type}\t${prompt}\t`;
 
-QuizPool.prototype.__getQuestionType() {
+    result += line;
+  }
+
+  return result;
+};
+
+QuizPool.prototype.__getQuestionType = function() {
   // Gets question type of current question
-  if(this.__isMultipleChoice) {
-    return 
+  if(this.__isMultipleChoice()) {
+    return this.questionTypes.multipleChoice;
   }
   
-  if(this.__isMultipleAnswer) {
-    return 
+  if(this.__isMultipleAnswer()) {
+    return this.questionTypes.multipleAnswer;
   }
   
-  if(this.__isTrueFalse) {
-    return 
+  if(this.__isTrueFalse()) {
+    return this.questionTypes.trueFalse;
   }
-}
 
-QuizPool.prototype.__setQuestionType(type) {
+  if(this.currentQuestion.type != '') {
+    let type = this.currentQuestion.type;
+    switch(type) {
+      case 'E':
+        return 'ESS';
+        // break;
+      // Inlcude additional cases as needed
+    }
+  }
+
+  // throw 'No Question Type Found';
+};
+
+QuizPool.prototype.__setQuestionType = function(type) {
   this.currentQuestion.type = type;
-}
+};
 
-QuizPool.prototype.__isMultipleChoice() {
+QuizPool.prototype.__isMultipleChoice = function() {
   let question = this.currentQuestion;
   let noTypeSpecified = question.type === '';
   let moreThanTwoAnswers = question.answers.length > 2;
@@ -107,9 +132,9 @@ QuizPool.prototype.__isMultipleChoice() {
     return true;
   }
   return false;
-}
+};
 
-QuizPool.prototype.__isMultipleAnswer() {
+QuizPool.prototype.__isMultipleAnswer = function() {
   // code here
   let question = this.currentQuestion;
   let noTypeSpecified = question.type === '';
@@ -120,9 +145,9 @@ QuizPool.prototype.__isMultipleAnswer() {
     return true;
   }
   return false;
-}
+};
 
-QuizPool.prototype.__isTrueFalse() {
+QuizPool.prototype.__isTrueFalse = function() {
   // code here
   let question = this.currentQuestion;
   let noTypeSpecified = question.type === '';
@@ -133,7 +158,7 @@ QuizPool.prototype.__isTrueFalse() {
     return true;
   }
   return false;
-}
+};
 
 QuizPool.prototype.__addQuestion = function(question) {
   this.questions.push(question);
@@ -166,7 +191,7 @@ QuizPool.prototype.__getMatch = function(item, patternName) {
   }
   console.log('Pattern does not exist: ', patternName)
   return false;
-}
+};
 
 QuizPool.prototype.__search = function(item, patternName) {
   if(!item) {

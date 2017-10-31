@@ -7,11 +7,10 @@ exports.parse_post = function(req, res, next) {
 		// Parse quiz
 		let pool = new bbQuizParser(req.body['quizpool']);
 		pool.evaluatePool();
-		console.log(pool.getQuestions());
-
-		// Download result
-
-		// Send html to render
-		res.send(html);
+		console.log(pool.questionsToCSV());
+		
+		let results = pool.questionsToCSV();
+		res.set({"Content-Disposition":"attachment; filename=\"sample.txt\""});
+		res.send(results);
 	});
 }
